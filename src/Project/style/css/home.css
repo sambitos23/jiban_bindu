@@ -1,0 +1,106 @@
+.first-p{
+    background: rgb(255,215,176);
+    background: linear-gradient(180deg, rgba(255,215,176,1) 0%, rgba(255,164,66,1) 100%);
+}
+
+.compfir{
+    width:85%;
+    margin-top: 12%;
+    padding-left: 7%;
+    padding-bottom: 20%;
+}
+
+.comp2{
+    width:87%;
+    margin-top: 12%;
+    padding-left: 7%;
+    padding-bottom: 20%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.comp3{
+    width:55%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+}
+
+.comp4{
+    width:50%;
+    z-index: 0;
+    padding-top: 10%; 
+    position: relative;
+}
+
+.comp5{
+    width:60%;
+    z-index: 1;
+    padding-left: 30%;
+    position: relative;
+    margin-top: 20%;
+}
+
+.comp6{
+    width:60%;
+    padding-left: 10%;
+    position: relative;
+    z-index: 1;  
+    margin-top: 3%;  
+}
+
+.comp7{
+    width:60%;
+    z-index: 1;
+    padding-left: 30%;
+    position: relative;
+    padding-top: 28%;
+}
+
+.comp13{
+    width: 70%;
+    display: block;
+    margin-left: 16%;
+    margin-top: 10%;
+    padding-bottom: 8%;
+}
+
+.gridstyle1{
+    position: relative;
+    margin-top: -135%;
+}
+
+.text1{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Monoton', cursive;
+    margin-top: -100px;
+    color: white;
+    font-size: 230%;
+}
+
+.text2{
+    position: absolute;
+    color: #80C1C5;
+    font-size: 1.5ev;
+    margin-top: -380px;
+    margin-left: 160px;
+    text-align: center;
+}

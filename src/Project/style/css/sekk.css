@@ -1,0 +1,66 @@
+.background01{
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,184,255,1) 100%);
+}
+
+.comp01{
+    width:35%;
+    margin-top: 20%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    position: relative;
+    animation: myfirst 10s 500;
+    animation-direction: alternate-reverse;
+}
+@keyframes myfirst {
+    0%   { left: 0px; top: 0px;}
+    50%  { left: 50%; top: 0px;}
+    100% { left: 0px; top: 0px;}
+  }
+
+.input{
+    border-radius:20px;
+    border:1.5px solid #707070;
+    width:70%;
+    padding-left:0.8%;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+    padding-right:0.8%;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white; 
+    font-size:45; 
+    font-weight:600; 
+    text-shadow:2px 2px 5px #4d4d4d;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.select{
+    border-radius:20px;
+    border:1.5px solid #707070;
+    width:72%;
+    padding-left:0.8%;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+    padding-right:0.8%;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.container{
+    width: 75%;
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: #A4BFD1;
+    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}

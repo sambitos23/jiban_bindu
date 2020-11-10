@@ -1,0 +1,45 @@
+.background100{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(254,181,70,1) 100%);
+}
+
+.comp001{
+    width:80%;
+    margin-top: 20%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+}
+
+.input{
+    border-radius:20px;
+    border:1.5px solid #707070;
+    width:70%;
+    padding-left:0.8%;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+    padding-right:0.8%;
+    outline: none;
+    margin-bottom: 5%;
+}
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white; 
+    font-size:45; 
+    font-weight:600; 
+    text-shadow:2px 2px 5px #4d4d4d;
+    text-align: center;
+    margin-top: 17%;
+}
+
+.select{
+    border-radius:20px;
+    border:1.5px solid #707070;
+    width:72%;
+    padding-left:0.8%;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+    padding-right:0.8%;
+    outline: none;
+    margin-bottom: 5%;
+}
